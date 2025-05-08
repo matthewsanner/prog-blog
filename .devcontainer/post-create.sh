@@ -1,13 +1,25 @@
 #!/usr/bin/env bash
 
-if [ -f package.json ]; then
-  bash -i -c "nvm install --lts && nvm install-latest-npm"
-  npm i
-  npm run build
-fi
+# Update and install system dependencies
+apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    curl \
+    nodejs \
+    npm \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Jekyll and Bundler
+gem install jekyll bundler
 
 # Install dependencies for shfmt extension
 curl -sS https://webi.sh/shfmt | sh &>/dev/null
+
+# Install Node.js dependencies if package.json exists
+if [ -f package.json ]; then
+  npm install
+  npm run build
+fi
 
 # Add OMZ plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
