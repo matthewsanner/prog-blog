@@ -30,7 +30,7 @@ A link to [Google](https://www.google.com)
 
 ---
 
-'''yml
+```yml
   jekyll_compose:
   auto_open: true
   default_front_matter:
@@ -40,4 +40,4 @@ A link to [Google](https://www.google.com)
     posts:
       category: []
       tags: []
-'''
+```
