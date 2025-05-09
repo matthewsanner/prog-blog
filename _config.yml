@@ -16,7 +16,7 @@ timezone: America/Mexico_City
 
 title: Clear Coding # the main title
 
-tagline: Easy-to-follow coding tutorials and more # it will display as the subtitle
+tagline: Easy-to-follow coding tutorials # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Easy-to-follow coding tutorials
