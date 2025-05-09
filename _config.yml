@@ -62,6 +62,8 @@ analytics:
     id: # fill in your Google Analytics ID
   goatcounter:
     id: matthewsanner
+    url: https://matthewsanner.goatcounter.com
+    base_url: https://matthewsanner.github.io/prog-blog
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
