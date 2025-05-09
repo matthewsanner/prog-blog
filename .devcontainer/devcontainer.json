@@ -29,5 +29,8 @@
         "mhutchie.git-graph"
       ]
     }
+  },
+  "remoteEnv": {
+    "JEKYLL_EDITOR": "cursor"
   }
 }
