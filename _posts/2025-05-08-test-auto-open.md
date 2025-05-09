@@ -7,9 +7,11 @@ tags: [jekyll, ruby]
 ---
 
 # H1
-## H2
 
 *Italic*
+
+## H2
+
 **Bold**
 
 - First Item
@@ -28,7 +30,8 @@ A link to [Google](https://www.google.com)
 
 ---
 
-'''jekyll_compose:
+'''yml
+  jekyll_compose:
   auto_open: true
   default_front_matter:
     drafts:
