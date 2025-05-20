@@ -4,6 +4,7 @@ title: Welcome to Coding Trails
 date: 2025-05-19 17:34 -0600
 category: [meta]
 tags: [welcome, introduction, site-update]
+image: /assets/img/logo.png
 ---
 
 Hey! Thanks for stopping by **Coding Trails**. I’m Matthew Sanner, an early-career software engineer with a background in hospitality, now adapting my people skills to solve problems with programming and technology. 
