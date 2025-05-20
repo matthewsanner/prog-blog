@@ -237,3 +237,5 @@ jekyll_compose:
     posts:
       category: []
       tags: []
+
+custom_css: /assets/css/custom.scss
