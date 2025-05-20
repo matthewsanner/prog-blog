@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 Welcome to **Coding Trails**. I’m Matthew Sanner, an early-career software engineer with a background in hospitality, now adapting my people skills to solve problems with programming and technology. 
 
 In my work, I've noticed that many clever projects and niche programming workflows don’t have clear, practical, or reliable documentation online. This site is my attempt to fill in some of those gaps with detailed, human-centered tutorials and guides built from projects I’ve worked on personally- the kind of resources I wish I'd had when I was tackling them.
