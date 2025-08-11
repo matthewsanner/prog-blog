@@ -56,7 +56,7 @@ Changed default CA to: https://acme-v02.api.letsencrypt.org/directory
 Issue a new certificate for your domain from your terminal:
 
 ```bash
-acme.sh --issue -d example.com -d www.example.com -w /home/username/example.com
+acme.sh --issue -d example.com -d www.example.com -w /home/username/public_html
 ```
 
 - Replace `example.com` with your actual domain and `username` with your cPanel username.
@@ -180,3 +180,12 @@ If you run into any problems using this tutorial, please email me. While I might
 Thanks for visiting- and congrats on saving some money on web hosting!
 
 ---
+
+An earlier version of this post contained a faulty webroot address for Namecheap hosting's patterns in Step 3, it is fixed now to focus on the public_html directory. If you've previously used this tutorial and had problems renewing, run these two commands in your cPanel terminal to fix the issue:
+
+```bash
+acme.sh --issue -d yourdomain.com -d www.yourdomain.com -w /home/username/public_html --home "/home/username/.acme.sh"
+acme.sh --deploy -d yourdomain.com --deploy-hook cpanel_uapi --home "/home/username/.acme.sh"
+```
+
+Be sure to replace 'yourdomain.com' with your actual domain and username with your actual cPanel username in Namecheap.
