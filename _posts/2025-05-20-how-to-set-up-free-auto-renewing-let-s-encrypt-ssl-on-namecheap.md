@@ -188,4 +188,4 @@ acme.sh --issue -d yourdomain.com -d www.yourdomain.com -w /home/username/public
 acme.sh --deploy -d yourdomain.com --deploy-hook cpanel_uapi --home "/home/username/.acme.sh"
 ```
 
-Be sure to replace 'yourdomain.com' with your actual domain and username with your actual cPanel username in Namecheap.
+Be sure to replace 'yourdomain.com' with your actual domain and 'username' with your actual cPanel username in Namecheap.
