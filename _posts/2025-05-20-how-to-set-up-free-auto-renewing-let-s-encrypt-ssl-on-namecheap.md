@@ -158,7 +158,7 @@ Just check that you can see the following configuration items, don't worry about
 ```bash
 Le_Domain='example.com'
 Le_Alt='www.example.com'
-Le_Webroot='/home/username/example.com'
+Le_Webroot='/home/username/public_html'
 Le_API='https://acme-v02.api.letsencrypt.org/directory'
 Le_DeployHook='cpanel_uapi'
 ```
